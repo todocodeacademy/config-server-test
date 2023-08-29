@@ -1,12 +1,12 @@
 server:
   port: 8081
 
- spring:
-   cloud:
-     config:
-       server:
-         git:
-           uri: https://github.com/todocodeacademy/config-server-test.git
-           searchPaths: config-data
-           username: ${GIT_USER}
-           password: ${GIT PASSWORD}
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/todocodeacademy/config-server-test.git
+          searchPaths: config-data
+          username: ${GIT_USER}
+          password: ${GIT PASSWORD}
