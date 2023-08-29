@@ -7,6 +7,6 @@ server:
        server:
          git:
            uri: https://github.com/todocodeacademy/config-server-test.git
-           searchPath: config-data
+           searchPaths: config-data
            username: ${GIT_USER}
            password: ${GIT PASSWORD}
