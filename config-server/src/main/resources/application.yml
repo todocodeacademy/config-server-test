@@ -4,6 +4,7 @@ server:
 spring:
   application:
     name: config-server
+
   cloud:
     config:
       server:
@@ -11,4 +12,4 @@ spring:
           uri: https://github.com/todocodeacademy/config-server-test.git
           searchPaths: config-data
           username: ${GIT_USER}
-          password: ${GIT PASSWORD}
+          password: ${GIT_PASSWORD}
